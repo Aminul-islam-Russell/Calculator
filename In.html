@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- title -->
+  <title>Document</title>
+  <link rel="shortcut icon" href="./images/mac.jpg" type="image/x-icon" />
+  <!-- link -->
+  <link rel="stylesheet" href="MAS.css" />
+</head>
+
+<body>
+  <section id="bg-img">
+
+    <!-- wrapper -->
+    <div class="wrapper">
+      <h1 class="title">CALCULATOR</h1>
+      <div class="result">
+        <input placeholder="0" type="text" id="input" />
+      </div>
+
+      <div class="add-buttons-list">
+        <div class="row">
+          <button onclick="addInput(7)">7</button>
+          <button onclick="addInput(8)">8</button>
+          <button onclick="addInput(9)">9</button>
+          <button onclick="addInput('+')">+</button>
+        </div>
+        <div class="row">
+          <button onclick="addInput(4)">4</button>
+          <button onclick="addInput(5)">5</button>
+          <button onclick="addInput(6)">6</button>
+          <button onclick="addInput('-')">-</button>
+        </div>
+        <div class="row">
+          <button onclick="addInput(1)">1</button>
+          <button onclick="addInput(2)">2</button>
+          <button onclick="addInput(3)">3</button>
+          <button onclick="addInput('*')">*</button>
+        </div>
+        <div class="row">
+          <button onclick="addInput(0)">0</button>
+          <button onclick="addInput('.$')">$</button>
+          <button onclick="addInput('%')">%</button>
+          <button onclick="addInput('/')">/</button>
+        </div>
+
+        <div class="row">
+          <button class="raw" onclick="del()">DE</button>
+          <button class="light" onclick="Clear()">CL</button>
+          <button onclick="addInput('.')">.</button>
+          <button class="fan" onclick="result()">=</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- js Link -->
+  <script src="Y.js" type="text/javascript"></script>
+</body>
+
+</html>

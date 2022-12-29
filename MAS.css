@@ -1,0 +1,107 @@
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    justify-content: center;
+    
+  }
+  #bg-img{
+    background-image: url("images/mac.jpg");
+    min-height:700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    position: relative;
+  }
+
+  /* wrapper */
+  .wrapper {
+    width: 280px;
+    gap:10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    display: inline-block;
+   
+  }
+  .title{
+    color: #eeecec;
+    text-align: center;
+    font-size: 1.9rem;
+    line-height: 3rem;
+  }
+  
+  .result {
+    background-color:salmon;
+    border-radius: inherit;
+    margin: 0 5px 10px 5px;
+   
+  }
+  
+  .result input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: white;
+  }
+  
+  .result input::placeholder {
+    color: #eeecec;
+  }
+  
+  .add-buttons-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 1.2px;
+  }
+  
+  .row button {
+    flex: 1;
+    border: 1px solid #1414124f;
+    border-radius:20px ;
+    padding: 12px;
+  }
+  
+  .fan{
+    background-color:salmon;
+    color:rgba(255, 0, 0, 0.972);
+  }
+.raw{
+  background-color: salmon;
+  color:rgba(255, 0, 0, 0.972);
+}
+.light{
+ 
+  color:rgb(255, 14, 14);
+}
+
+/* responsive */
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+     width: 50%;
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
